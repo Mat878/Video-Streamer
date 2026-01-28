@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",               // modern JS features
+    "module": "commonjs",             // required for Firebase functions
+    "lib": ["ES2020"],
+    "outDir": "lib",                   // compiled JS
+    "rootDir": "src",                  // source files
+    "strict": true,                    // type safety
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true               // prevents rimraf/glob errors
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
