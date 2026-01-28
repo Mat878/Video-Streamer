@@ -4,7 +4,7 @@ import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, User 
 import { getFunctions} from 'firebase/functions';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC1_Blq6mwwC-AAZavbuMDO7HePtZIsbH4",
+  apiKey: "",
   authDomain: "video-player-app-c7ab3.firebaseapp.com",
   projectId: "video-player-app-c7ab3",
   appId: "1:139523069467:web:005534f18f939b01c84abe"
